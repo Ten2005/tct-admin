@@ -88,21 +88,6 @@ export default function Settings() {
     }
   };
 
-  const handleDelete = async (e: React.MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault();
-    if (!editingAttribute) return;
-    
-    try {
-      await deleteAttribute(editingAttribute.attribute_id);
-      setAttributes(attributes.filter(attr => attr.attribute_id !== editingAttribute.attribute_id));
-      setEditingAttribute(null);
-      setIsDeleteOpen(false);
-    } catch (error) {
-      console.error('Error deleting attribute:', error);
-    }
-  };
-  
-
   return (
     <div>
       <h1 className="text-2xl font-bold mb-4">設定</h1>
