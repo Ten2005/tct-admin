@@ -52,7 +52,7 @@ export default function Candidates() {
   
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4">ダッシュボード</h2>
+      <h2 className="text-2xl font-bold m-2">ダッシュボード</h2>
       <div className="bg-white rounded shadow">
         <h2 className="text-xl font-semibold px-4 py-4">新入生一覧</h2>
         <div className="overflow-x-auto shadow">

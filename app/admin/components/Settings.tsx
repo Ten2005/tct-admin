@@ -90,7 +90,7 @@ export default function Settings() {
 
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-4">設定</h1>
+      <h1 className="text-2xl font-bold m-2">設定</h1>
       <div className="bg-white rounded shadow">
         <h2 className="text-xl font-semibold px-4 py-4">項目一覧</h2>
         <div className="overflow-x-auto shadow">

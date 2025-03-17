@@ -25,7 +25,7 @@ export default function AdminPage() {
       />
 
       {/* Main content */}
-      <main className="flex-1 bg-gray-50 p-4 md:p-8 pt-20 md:pt-8">
+      <main className="flex-1 bg-gray-50 md:p-8 pt-20 md:pt-8">
         {activeTab === 'dashboard' && <Dashboard />}
         {activeTab === 'logs' && <Logs />}
         {activeTab === 'settings' && <Settings />}
